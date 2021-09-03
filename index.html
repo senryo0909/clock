@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
-        <div class="round"> 
-            <ul class="outNumber">
-                <li class="numbers">12</li>
-                <li class="numbers">1</li>
-                <li class="numbers">2</li>
-                <li class="numbers">3</li>
-                <li class="numbers">4</li>
-                <li class="numbers">5</li>
-                <li class="numbers">6</li>
-                <li class="numbers">7</li>
-                <li class="numbers">8</li>
-                <li class="numbers">9</li>
-                <li class="numbers">10</li>
-                <li class="numbers">11</li>
-            </ul>
-        </div>
+<div class="analog-clock">
+    <div class="movement-board">
+        <ol class="dial">
+            <li aria-label="five past">1</li>
+            <li aria-label="ten past">2</li>
+            <li aria-label="a quarter past">3</li>
+            <li aria-label="twenty past">4</li>
+            <li aria-label="twenty five past">5</li>
+            <li aria-label="half past">6</li>
+            <li aria-label="twenty five to">7</li>
+            <li aria-label="twenty to">8</li>
+            <li aria-label="quarter to">9</li>
+            <li aria-label="ten to">10</li>
+            <li aria-label="five to">11</li>
+            <li aria-label="o'clock">12</li>
+        </ol>
+        <p class="hands">
+            <span class="hour-hand"></span>
+            <span class="minute-hand"></span>
+            <span class="second-hand"></span>
+            <span class="cap"></span>
+        </p>
+        <p class="digital-time">
+            <span class="hour"></span>
+            <span class="minute"></span>
+            <span class="second"></span>
+        </p>
     </div>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
